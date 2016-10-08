@@ -1,0 +1,28 @@
+---
+# vars file for standard-packages
+#
+packages:
+  - vim
+  - texmaker
+  - powerline
+  - tmux-powerline
+  - vim-powerline
+  - sway
+  - docker
+  - openvswitch
+  - "@virtualization"
+  - virt-install
+  - zsh
+  - freerdp
+  - remmina-plugins-rdp
+  - remmina-plugins-vnc
+  - jq
+  - iotop
+  - git-all
+  - source-to-image
+  - docker-rhsubscription
+  - docker-vim
+
+
+  #pip_packages:
+    #- { options: "--user", pkg: "powerline-status" }

@@ -1,0 +1,7 @@
+---
+- name: Install and Configure Fedora workstation
+  gather_facts: true
+  hosts: all
+  roles:
+    - google-chrome
+

@@ -1,0 +1,8 @@
+---
+# tasks file for standard-packages
+
+
+- name: Install Packages
+  dnf:
+    pkg: "{{ item }}"
+  with_items: packages

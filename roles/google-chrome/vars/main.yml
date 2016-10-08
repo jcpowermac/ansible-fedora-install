@@ -1,0 +1,4 @@
+---
+# vars file for google-chrome
+#
+chrome_download_url: https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm

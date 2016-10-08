@@ -1,0 +1,20 @@
+---
+# tasks file for google-chrome
+#
+#
+- name: Create Download Directory
+  file:
+    path: /srv
+    state: directory
+
+- name: Download Google Chrome
+  get_url:
+    url: "{{ chrome_download_url }}"
+    dest: "/srv/"
+  register: chrome_get_url
+
+
+- name: Install Google Chrome
+  dnf: 
+    name: "{{ chrome_get_url.dest }}"
+    state: present
